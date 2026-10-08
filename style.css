@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  width: 100vw;
+  padding: 5px;
+  background-color: bisque;
+}
+
+#current-image-container .title{
+   text-align: center;
+   font-size: 30px;
+   font-weight: 700;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#current-image-container img{
+  margin: 10px;
+  height: 50%;
+  width: 98%;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+#current-image-container .description{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-variant: small-caps;
+    margin: 5px;
+}
+
+.search-container{
+    padding: 20px 0px 25px 0px;
+  }
+ 
+ label{
+  font-size: 20px;
+  padding-left: 20px;
+  font-weight: 600;
+ } 
+
+#search-input{
+  all: unset;
+  font-size: 25px;
+  padding-left: 10px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+#btn{
+  all: unset;
+  font-size: 20px;
+  border: 1px solid black;
+  padding: 5px 15px 5px 15px;
+  cursor: pointer;
+}
+
+#search-history li a{
+  all: unset;
+  font-size: 25px;
+  padding: 10px 0px 10px 10px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  cursor: pointer;
+}
+
+h2{
+   font-size: 40px;
+   color: rgb(95, 94, 91);
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+small{
+  font-size: 15px;
+  color: red;
+  font-weight: 600;
+  padding-left: 10px;
+}
+
